@@ -309,8 +309,17 @@ function Index() {
           <div>
             <h4 className="font-semibold mb-4 text-sm">Contacto</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>contacto@alphacomputer.cl</li>
-              <li>Santiago, Chile</li>
+              <li>Av. Lib. Bernardo O'Higgins 1302, of. 70, Santiago</li>
+              <li>
+                <a
+                  href="https://wa.me/56984283535"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-brand"
+                >
+                  WhatsApp Business: +56 9 8428 3535
+                </a>
+              </li>
               <li>Lun a Vie · 9:00 - 18:00</li>
             </ul>
           </div>
