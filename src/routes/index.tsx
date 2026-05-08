@@ -5,6 +5,7 @@ import productMouse from "@/assets/product-mouse.jpg";
 import productKeyboard from "@/assets/product-keyboard.jpg";
 import productHeadset from "@/assets/product-headset.jpg";
 import productMonitor from "@/assets/product-monitor.jpg";
+import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
 
@@ -40,11 +41,8 @@ function Index() {
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-          <a href="#" className="flex items-center gap-2">
-            <div className="size-9 rounded-lg bg-gradient-to-br from-brand to-brand-glow grid place-items-center font-display font-bold text-brand-foreground">
-              α
-            </div>
-            <span className="font-display font-bold text-lg tracking-tight">Alpha Computer</span>
+          <a href="#" className="flex items-center gap-2" aria-label="Alpha Computer">
+            <img src={logoAlpha} alt="Alpha Computer" className="h-9 md:h-10 w-auto" />
           </a>
           <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#productos" className="hover:text-foreground transition-colors">Productos</a>
@@ -288,11 +286,8 @@ function Index() {
       <footer id="contacto" className="border-t border-border bg-surface/40 mt-10">
         <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="size-9 rounded-lg bg-gradient-to-br from-brand to-brand-glow grid place-items-center font-display font-bold text-brand-foreground">
-                α
-              </div>
-              <span className="font-display font-bold text-lg">Alpha Computer</span>
+            <div className="mb-4">
+              <img src={logoAlpha} alt="Alpha Computer" className="h-12 w-auto bg-white/95 rounded-lg p-2" />
             </div>
             <p className="text-sm text-muted-foreground max-w-sm">
               Tecnología y gaming en Chile. Vendedor oficial en Falabella Seller Center.
