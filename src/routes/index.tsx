@@ -6,6 +6,7 @@ import productKeyboard from "@/assets/product-keyboard.jpg";
 import productHeadset from "@/assets/product-headset.jpg";
 import productMonitor from "@/assets/product-monitor.jpg";
 import productBackpackDell from "@/assets/product-backpack-dell.jpg";
+import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -33,6 +34,13 @@ const products = [
     img: productBackpackDell,
     tag: "Eco",
     url: "https://www.falabella.com/falabella-cl/product/153714901/Mochila-Dell-EcoLoop-Essential-para-Notebook-15in-18-Litros/153714903",
+  },
+  {
+    name: "Mouse Lenovo ThinkPad Essential Wireless",
+    price: "$23.990",
+    img: productMouseLenovo,
+    tag: "Oficina",
+    url: "https://www.falabella.com/falabella-cl/product/153490835/Mouse-inalambrico-Lenovo-ThinkPad-Essential-Wireless-Negro-1200-DPI/153490836",
   },
 ];
 
