@@ -35,6 +35,13 @@ const products = [
     tag: "Eco",
     url: "https://www.falabella.com/falabella-cl/product/153714901/Mochila-Dell-EcoLoop-Essential-para-Notebook-15in-18-Litros/153714903",
   },
+  {
+    name: "Mouse Lenovo ThinkPad Essential Wireless",
+    price: "$23.990",
+    img: productMouseLenovo,
+    tag: "Oficina",
+    url: "https://www.falabella.com/falabella-cl/product/153490835/Mouse-inalambrico-Lenovo-ThinkPad-Essential-Wireless-Negro-1200-DPI/153490836",
+  },
 ];
 
 const brands = ["LOGITECH", "HYPERX", "ASUS", "RAZER", "CORSAIR", "MSI", "REDRAGON"];
