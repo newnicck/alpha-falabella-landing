@@ -23,10 +23,17 @@ export const Route = createFileRoute("/")({
 });
 
 const products = [
-  { name: "Mouse Gamer RGB Pro", price: "$24.990", img: productMouse, tag: "Más vendido" },
-  { name: "Teclado Mecánico RGB", price: "$49.990", img: productKeyboard, tag: "Nuevo" },
-  { name: "Audífonos Inalámbricos", price: "$59.990", img: productHeadset, tag: "Oferta" },
-  { name: "Monitor Curvo 34\"", price: "$299.990", img: productMonitor, tag: "Premium" },
+  { name: "Mouse Gamer RGB Pro", price: "$24.990", img: productMouse, tag: "Más vendido", url: undefined as string | undefined },
+  { name: "Teclado Mecánico RGB", price: "$49.990", img: productKeyboard, tag: "Nuevo", url: undefined },
+  { name: "Audífonos Inalámbricos", price: "$59.990", img: productHeadset, tag: "Oferta", url: undefined },
+  { name: "Monitor Curvo 34\"", price: "$299.990", img: productMonitor, tag: "Premium", url: undefined },
+  {
+    name: "Mochila Dell EcoLoop Essential 15\"",
+    price: "$39.990",
+    img: productBackpackDell,
+    tag: "Eco",
+    url: "https://www.falabella.com/falabella-cl/product/153714901/Mochila-Dell-EcoLoop-Essential-para-Notebook-15in-18-Litros/153714903",
+  },
 ];
 
 const brands = ["LOGITECH", "HYPERX", "ASUS", "RAZER", "CORSAIR", "MSI", "REDRAGON"];
