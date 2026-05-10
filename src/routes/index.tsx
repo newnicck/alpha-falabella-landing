@@ -5,6 +5,7 @@ import productMouse from "@/assets/product-mouse.jpg";
 import productKeyboard from "@/assets/product-keyboard.jpg";
 import productHeadset from "@/assets/product-headset.jpg";
 import productMonitor from "@/assets/product-monitor.jpg";
+import productBackpackDell from "@/assets/product-backpack-dell.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -22,10 +23,17 @@ export const Route = createFileRoute("/")({
 });
 
 const products = [
-  { name: "Mouse Gamer RGB Pro", price: "$24.990", img: productMouse, tag: "Más vendido" },
-  { name: "Teclado Mecánico RGB", price: "$49.990", img: productKeyboard, tag: "Nuevo" },
-  { name: "Audífonos Inalámbricos", price: "$59.990", img: productHeadset, tag: "Oferta" },
-  { name: "Monitor Curvo 34\"", price: "$299.990", img: productMonitor, tag: "Premium" },
+  { name: "Mouse Gamer RGB Pro", price: "$24.990", img: productMouse, tag: "Más vendido", url: undefined as string | undefined },
+  { name: "Teclado Mecánico RGB", price: "$49.990", img: productKeyboard, tag: "Nuevo", url: undefined },
+  { name: "Audífonos Inalámbricos", price: "$59.990", img: productHeadset, tag: "Oferta", url: undefined },
+  { name: "Monitor Curvo 34\"", price: "$299.990", img: productMonitor, tag: "Premium", url: undefined },
+  {
+    name: "Mochila Dell EcoLoop Essential 15\"",
+    price: "$39.990",
+    img: productBackpackDell,
+    tag: "Eco",
+    url: "https://www.falabella.com/falabella-cl/product/153714901/Mochila-Dell-EcoLoop-Essential-para-Notebook-15in-18-Litros/153714903",
+  },
 ];
 
 const brands = ["LOGITECH", "HYPERX", "ASUS", "RAZER", "CORSAIR", "MSI", "REDRAGON"];
@@ -175,11 +183,11 @@ function Index() {
             Ver todo en Falabella <ArrowRight className="size-4" />
           </a>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {products.map((p) => (
             <a
               key={p.name}
-              href={FALABELLA_URL}
+              href={p.url ?? FALABELLA_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative rounded-2xl border border-border bg-surface overflow-hidden hover:border-brand/50 hover:-translate-y-1 transition-all"
