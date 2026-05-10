@@ -183,11 +183,11 @@ function Index() {
             Ver todo en Falabella <ArrowRight className="size-4" />
           </a>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {products.map((p) => (
             <a
               key={p.name}
-              href={FALABELLA_URL}
+              href={p.url ?? FALABELLA_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative rounded-2xl border border-border bg-surface overflow-hidden hover:border-brand/50 hover:-translate-y-1 transition-all"
