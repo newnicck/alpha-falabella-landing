@@ -5,6 +5,7 @@ import productMouse from "@/assets/product-mouse.jpg";
 import productKeyboard from "@/assets/product-keyboard.jpg";
 import productHeadset from "@/assets/product-headset.jpg";
 import productMonitor from "@/assets/product-monitor.jpg";
+import productBackpackDell from "@/assets/product-backpack-dell.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
