@@ -10,6 +10,7 @@ import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
 import productDockingAsus from "@/assets/product-docking-asus.jpg";
 import productMicrosdSandisk from "@/assets/product-microsd-sandisk.jpg";
 import productHeadsetPoly from "@/assets/product-headset-poly.jpg";
+import productInkHp from "@/assets/product-ink-hp.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -65,6 +66,13 @@ const products = [
     img: productHeadsetPoly,
     tag: "Audio",
     url: "https://www.falabella.com/falabella-cl/product/153354972/Auriculares-On-Ear-Alambrico-Poly-Blackwire-3220-Negro/153354973",
+  },
+  {
+    name: "Pack 4x Botellas de Tinta HP GT53/GT52 Black/Cyan/Magenta/Yellow",
+    price: "$39.990",
+    img: productInkHp,
+    tag: "Impresión",
+    url: "https://www.falabella.com/falabella-cl/product/152363452/Pack-4x-Botellas-de-Tinta-HP-GT53GT52-BlackCyanMagentaYelloy/152363453",
   },
 ];
 
