@@ -8,6 +8,7 @@ import productMonitor from "@/assets/product-monitor.jpg";
 import productBackpackDell from "@/assets/product-backpack-dell.jpg";
 import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
 import productDockingAsus from "@/assets/product-docking-asus.jpg";
+import productMicrosdSandisk from "@/assets/product-microsd-sandisk.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -49,6 +50,13 @@ const products = [
     img: productDockingAsus,
     tag: "Pro",
     url: "https://www.falabella.com/falabella-cl/product/152515258/Docking-Station-ASUS-DC300-USB-C-Hasta-3-Pantallas-4K/152515259",
+  },
+  {
+    name: "Memoria MicroSDXC 128GB Sandisk para Nintendo Switch",
+    price: "$24.990",
+    img: productMicrosdSandisk,
+    tag: "Gamer",
+    url: "https://www.falabella.com/falabella-cl/product/136517605/Memoria-MicroSDXC-128GB-Sandisk-para-Nintendo-Switch/136517606",
   },
 ];
 
