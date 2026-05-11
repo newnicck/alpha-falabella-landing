@@ -9,6 +9,7 @@ import productBackpackDell from "@/assets/product-backpack-dell.jpg";
 import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
 import productDockingAsus from "@/assets/product-docking-asus.jpg";
 import productMicrosdSandisk from "@/assets/product-microsd-sandisk.jpg";
+import productHeadsetPoly from "@/assets/product-headset-poly.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -57,6 +58,13 @@ const products = [
     img: productMicrosdSandisk,
     tag: "Gamer",
     url: "https://www.falabella.com/falabella-cl/product/136517605/Memoria-MicroSDXC-128GB-Sandisk-para-Nintendo-Switch/136517606",
+  },
+  {
+    name: "Auriculares On-Ear Alámbrico Poly Blackwire 3220",
+    price: "$49.990",
+    img: productHeadsetPoly,
+    tag: "Audio",
+    url: "https://www.falabella.com/falabella-cl/product/153354972/Auriculares-On-Ear-Alambrico-Poly-Blackwire-3220-Negro/153354973",
   },
 ];
 
