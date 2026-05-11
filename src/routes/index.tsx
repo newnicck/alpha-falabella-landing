@@ -11,6 +11,7 @@ import productDockingAsus from "@/assets/product-docking-asus.jpg";
 import productMicrosdSandisk from "@/assets/product-microsd-sandisk.jpg";
 import productHeadsetPoly from "@/assets/product-headset-poly.jpg";
 import productInkHp from "@/assets/product-ink-hp.jpg";
+import productPendriveKingston from "@/assets/product-pendrive-kingston.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -73,6 +74,13 @@ const products = [
     img: productInkHp,
     tag: "Impresión",
     url: "https://www.falabella.com/falabella-cl/product/152363452/Pack-4x-Botellas-de-Tinta-HP-GT53GT52-BlackCyanMagentaYelloy/152363453",
+  },
+  {
+    name: "Kingston DataTraveler Duo Pendrive 256GB USB Tipo A y C",
+    price: "$29.990",
+    img: productPendriveKingston,
+    tag: "Almacenamiento",
+    url: "https://www.falabella.com/falabella-cl/product/153151438/Kingston-Data-Traveler-Duo-Pendrive,-256GB,-DTDEG2,-USB,-Tipo-A-y-Tipo-C/153151439",
   },
 ];
 
