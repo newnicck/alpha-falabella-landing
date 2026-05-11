@@ -7,6 +7,7 @@ import productHeadset from "@/assets/product-headset.jpg";
 import productMonitor from "@/assets/product-monitor.jpg";
 import productBackpackDell from "@/assets/product-backpack-dell.jpg";
 import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
+import productDockingAsus from "@/assets/product-docking-asus.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -41,6 +42,13 @@ const products = [
     img: productMouseLenovo,
     tag: "Oficina",
     url: "https://www.falabella.com/falabella-cl/product/153490835/Mouse-inalambrico-Lenovo-ThinkPad-Essential-Wireless-Negro-1200-DPI/153490836",
+  },
+  {
+    name: "Docking Station ASUS DC300 USB-C 3 Pantallas 4K",
+    price: "$149.990",
+    img: productDockingAsus,
+    tag: "Pro",
+    url: "https://www.falabella.com/falabella-cl/product/152515258/Docking-Station-ASUS-DC300-USB-C-Hasta-3-Pantallas-4K/152515259",
   },
 ];
 
