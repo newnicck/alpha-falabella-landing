@@ -117,6 +117,13 @@ const products = [
     tag: "Almacenamiento",
     url: "https://www.falabella.com/falabella-cl/product/150324644/Unidad-SSD-HIKSEMI-Wave-1000GB-25-SATA-III-3D-NAND/150324645",
   },
+  {
+    name: "Mochila para Notebook Xtech Insurgent Black/Red",
+    price: "$24.990",
+    img: productBackpackXtechInsurgent,
+    tag: "Urbana",
+    url: "https://www.falabella.com/falabella-cl/product/152323258/Mochila-para-Notebook-Xtech-Insurgent-BlackRed/152323259",
+  },
 ];
 
 const brands = ["LOGITECH", "HYPERX", "ASUS", "RAZER", "CORSAIR", "MSI", "REDRAGON"];
