@@ -12,6 +12,7 @@ import productInkHp from "@/assets/product-ink-hp.jpg";
 import productPendriveKingston from "@/assets/product-pendrive-kingston.jpg";
 import productPendriveKingston128 from "@/assets/product-pendrive-kingston-128.jpg";
 import productLockLenovo from "@/assets/product-lock-lenovo.jpg";
+import productEarbudsPrimus from "@/assets/product-earbuds-primus-arcus.png";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -99,6 +100,13 @@ const products = [
     img: productLockLenovo,
     tag: "Seguridad",
     url: "https://www.falabella.com/falabella-cl/product/153482822/Candado-de-seguridad-con-llave-Lenovo-57Y4303/153482823",
+  },
+  {
+    name: "Audífonos TWS Gaming Primus Arcus S250 PWH-S250R2",
+    price: "$29.990",
+    img: productEarbudsPrimus,
+    tag: "Gamer",
+    url: "https://www.falabella.com/falabella-cl/product/152768028/Audifonos-TWS-Gaming-Primus-Arcus-S250-PWH-S250R2/152768029",
   },
 ];
 
