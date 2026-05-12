@@ -9,6 +9,7 @@ import productMicrosdSandisk from "@/assets/product-microsd-sandisk.jpg";
 import productHeadsetPoly from "@/assets/product-headset-poly.jpg";
 import productInkHp from "@/assets/product-ink-hp.jpg";
 import productPendriveKingston from "@/assets/product-pendrive-kingston.jpg";
+import productPendriveKingston128 from "@/assets/product-pendrive-kingston-128.jpg";
 import productLockLenovo from "@/assets/product-lock-lenovo.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
@@ -76,6 +77,13 @@ const products = [
     img: productPendriveKingston,
     tag: "Almacenamiento",
     url: "https://www.falabella.com/falabella-cl/product/153151438/Kingston-Data-Traveler-Duo-Pendrive,-256GB,-DTDEG2,-USB,-Tipo-A-y-Tipo-C/153151439",
+  },
+  {
+    name: "Kingston DataTraveler Duo Pendrive 128GB USB Tipo A y C",
+    price: "$19.990",
+    img: productPendriveKingston128,
+    tag: "Almacenamiento",
+    url: "https://www.falabella.com/falabella-cl/product/153151242/Kingston-Data-Traveler-Duo-Pendrive,-128GB,-DTDEG2,-USB,-Tipo-A-y-Tipo-C/153151243",
   },
   {
     name: "Candado de seguridad con llave Lenovo 57Y4303",
