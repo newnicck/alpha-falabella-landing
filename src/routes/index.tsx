@@ -15,6 +15,7 @@ import productLockLenovo from "@/assets/product-lock-lenovo.jpg";
 import productEarbudsPrimus from "@/assets/product-earbuds-primus-arcus.png";
 import productSsdHiksemiWave from "@/assets/product-ssd-hiksemi-wave-1tb.jpg";
 import productBackpackXtechInsurgent from "@/assets/product-backpack-xtech-insurgent.jpg";
+import productBackpackLenovoB210 from "@/assets/product-backpack-lenovo-b210.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -123,6 +124,13 @@ const products = [
     img: productBackpackXtechInsurgent,
     tag: "Urbana",
     url: "https://www.falabella.com/falabella-cl/product/152323258/Mochila-para-Notebook-Xtech-Insurgent-BlackRed/152323259",
+  },
+  {
+    name: "Mochila Lenovo B210 4X40T84059 Casual Negra 16\" Liviana y Resistente al Agua",
+    price: "$19.990",
+    img: productBackpackLenovoB210,
+    tag: "Urbana",
+    url: "https://www.falabella.com/falabella-cl/product/152414056/Mochila-Lenovo-B210-4X40T84059-Casual-Negra-16-Liviana-y-Resistente-al-Agua/152414057",
   },
 ];
 
