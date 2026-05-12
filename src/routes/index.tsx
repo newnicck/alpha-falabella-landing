@@ -16,6 +16,7 @@ import productEarbudsPrimus from "@/assets/product-earbuds-primus-arcus.png";
 import productSsdHiksemiWave from "@/assets/product-ssd-hiksemi-wave-1tb.jpg";
 import productBackpackXtechInsurgent from "@/assets/product-backpack-xtech-insurgent.jpg";
 import productBackpackLenovoB210 from "@/assets/product-backpack-lenovo-b210.jpg";
+import productEpsonT40wBlack from "@/assets/product-epson-t40w-black.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -131,6 +132,13 @@ const products = [
     img: productBackpackLenovoB210,
     tag: "Urbana",
     url: "https://www.falabella.com/falabella-cl/product/152414056/Mochila-Lenovo-B210-4X40T84059-Casual-Negra-16-Liviana-y-Resistente-al-Agua/152414057",
+  },
+  {
+    name: "Epson Cartucho T40W UltraChrome XD2 Negro 80ML T40W320",
+    price: "$59.990",
+    img: productEpsonT40wBlack,
+    tag: "Impresión",
+    url: "https://www.falabella.com/falabella-cl/product/152333206/Epson-Cartucho-T40W-UltraChrome-XD2-Negro-80ML-T40W320/152333207",
   },
 ];
 
