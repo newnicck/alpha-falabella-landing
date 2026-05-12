@@ -14,6 +14,7 @@ import productPendriveKingston128 from "@/assets/product-pendrive-kingston-128.j
 import productLockLenovo from "@/assets/product-lock-lenovo.jpg";
 import productEarbudsPrimus from "@/assets/product-earbuds-primus-arcus.png";
 import productSsdHiksemiWave from "@/assets/product-ssd-hiksemi-wave-1tb.jpg";
+import productBackpackXtechInsurgent from "@/assets/product-backpack-xtech-insurgent.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
