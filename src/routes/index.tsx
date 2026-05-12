@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, ShieldCheck, Truck, Headphones, Cpu, Zap, Star, Check } from "lucide-react";
 import heroLaptop from "@/assets/hero-laptop.jpg";
-import productMouse from "@/assets/product-mouse.jpg";
+
 import productKeyboard from "@/assets/product-keyboard.jpg";
 import productHeadset from "@/assets/product-headset.jpg";
 import productMonitor from "@/assets/product-monitor.jpg";
@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
 });
 
 const products = [
-  { name: "Mouse Gamer RGB Pro", price: "$24.990", img: productMouse, tag: "Más vendido", url: undefined as string | undefined },
+  
   { name: "Teclado Mecánico RGB", price: "$49.990", img: productKeyboard, tag: "Nuevo", url: undefined },
   { name: "Audífonos Inalámbricos", price: "$59.990", img: productHeadset, tag: "Oferta", url: undefined },
   { name: "Monitor Curvo 34\"", price: "$299.990", img: productMonitor, tag: "Premium", url: undefined },
