@@ -3,6 +3,7 @@ import { ArrowRight, ShieldCheck, Truck, Headphones, Cpu, Zap, Star, Check } fro
 import heroLaptop from "@/assets/hero-laptop.jpg";
 
 import productBackpackDell from "@/assets/product-backpack-dell.jpg";
+import productBackpackDellUrban from "@/assets/product-backpack-dell-urban.jpg";
 import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
 import productDockingAsus from "@/assets/product-docking-asus.jpg";
 import productMicrosdSandisk from "@/assets/product-microsd-sandisk.jpg";
@@ -35,6 +36,13 @@ const products = [
     img: productBackpackDell,
     tag: "Eco",
     url: "https://www.falabella.com/falabella-cl/product/153714901/Mochila-Dell-EcoLoop-Essential-para-Notebook-15in-18-Litros/153714903",
+  },
+  {
+    name: "Mochila Dell Ecoloop Urban 20L Notebook 15\" Gris",
+    price: "$44.990",
+    img: productBackpackDellUrban,
+    tag: "Urbana",
+    url: "https://www.falabella.com/falabella-cl/product/153069015/Mochila-Dell-Ecoloop-Urban-20-Litros-para-Notebook-15%22-Gris/153069016",
   },
   {
     name: "Mouse Lenovo ThinkPad Essential Wireless",
