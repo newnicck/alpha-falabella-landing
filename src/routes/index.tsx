@@ -13,6 +13,7 @@ import productPendriveKingston from "@/assets/product-pendrive-kingston.jpg";
 import productPendriveKingston128 from "@/assets/product-pendrive-kingston-128.jpg";
 import productLockLenovo from "@/assets/product-lock-lenovo.jpg";
 import productEarbudsPrimus from "@/assets/product-earbuds-primus-arcus.png";
+import productSsdHiksemiWave from "@/assets/product-ssd-hiksemi-wave-1tb.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
 const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
@@ -107,6 +108,13 @@ const products = [
     img: productEarbudsPrimus,
     tag: "Gamer",
     url: "https://www.falabella.com/falabella-cl/product/152768028/Audifonos-TWS-Gaming-Primus-Arcus-S250-PWH-S250R2/152768029",
+  },
+  {
+    name: "Unidad SSD HIKSEMI Wave 1000GB 2.5\" SATA III 3D NAND",
+    price: "$54.990",
+    img: productSsdHiksemiWave,
+    tag: "Almacenamiento",
+    url: "https://www.falabella.com/falabella-cl/product/150324644/Unidad-SSD-HIKSEMI-Wave-1000GB-25-SATA-III-3D-NAND/150324645",
   },
 ];
 
