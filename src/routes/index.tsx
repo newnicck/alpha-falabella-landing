@@ -2,9 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, ShieldCheck, Truck, Headphones, Cpu, Zap, Star, Check } from "lucide-react";
 import heroLaptop from "@/assets/hero-laptop.jpg";
 
-import productKeyboard from "@/assets/product-keyboard.jpg";
-import productHeadset from "@/assets/product-headset.jpg";
-import productMonitor from "@/assets/product-monitor.jpg";
 import productBackpackDell from "@/assets/product-backpack-dell.jpg";
 import productMouseLenovo from "@/assets/product-mouse-lenovo.jpg";
 import productDockingAsus from "@/assets/product-docking-asus.jpg";
@@ -31,9 +28,6 @@ export const Route = createFileRoute("/")({
 
 const products = [
   
-  { name: "Teclado Mecánico RGB", price: "$49.990", img: productKeyboard, tag: "Nuevo", url: undefined },
-  { name: "Audífonos Inalámbricos", price: "$59.990", img: productHeadset, tag: "Oferta", url: undefined },
-  { name: "Monitor Curvo 34\"", price: "$299.990", img: productMonitor, tag: "Premium", url: undefined },
   {
     name: "Mochila Dell EcoLoop Essential 15\"",
     price: "$39.990",
