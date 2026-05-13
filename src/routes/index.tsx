@@ -19,7 +19,7 @@ import productBackpackLenovoB210 from "@/assets/product-backpack-lenovo-b210.jpg
 import productEpsonT40wBlack from "@/assets/product-epson-t40w-black.jpg";
 import logoAlpha from "@/assets/logo-alpha.png";
 
-const FALABELLA_URL = "https://www.falabella.com/falabella-cl";
+const FALABELLA_URL = "https://www.falabella.com/falabella-cl/seller/Alpha%20Computer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
